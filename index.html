@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Essay Practice</title>
+    <link rel="shortcut icon" href="bunty.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English Essay Practice</h1>
+        <textarea id="essayInput" placeholder="Start writing your essay here..." spellcheck="false"></textarea>
+        <button id="submitBtn">Submit Essay</button>
+        <div class="analytics" id="analyticsContainer" style="display: none;">
+            <h2>Essay Analytics</h2>
+            <p>Total Words: <span id="wordCount"></span></p>
+            <p>Typing Speed: <span id="typingSpeed"></span> words per minute</p>
+            <p>Backspaces Used: <span id="backspaceCount"></span></p>
+            <p>Start Time: <span id="startTimeDisplay"></span></p>
+            <p>End Time: <span id="endTimeDisplay"></span></p>
+            <p>Total Duration: <span id="totalDuration"></span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
